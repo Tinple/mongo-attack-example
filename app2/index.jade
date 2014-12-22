@@ -1,0 +1,35 @@
+doctype html
+
+//- --
+
+html
+  head
+
+  //- --
+
+  body
+    div
+      if !message
+        h1 Lock Me Out
+
+        //- --
+
+        p Help!!!! I need help!!! Is there any rescuer to open up the lock?? Knock!! Knock!!  
+
+        //- -- wtf!! The key is the same as lock !! Can someone help to find the right lock ?!!!
+
+        form(method="POST")
+          input(type="text", name="lock", autocomplete="off")
+          br
+          input(type="password", name="key", autocomplete="off")
+
+          //- --
+
+          input(type="submit" value="Open the lock")
+
+        //- --
+
+      else
+        p=message
+
+//- --
