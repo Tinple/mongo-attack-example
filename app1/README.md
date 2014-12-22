@@ -1,7 +1,5 @@
 ## mongo unauthorized access vulnerability detected
 
-====================
-
 ## Requirements
 
 * Node
