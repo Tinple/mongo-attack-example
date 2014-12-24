@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "util-crack": "0.0.2",
+    "request": "2.39.0"
+  }
+}
